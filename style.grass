@@ -51,7 +51,7 @@ node.Critic {
   diameter: 50px;
 }
 node.Producer {
-  color: #FFFFFF;
+  color: #eb2728;
   border-color: #eb2728;
   text-color-internal: #FFFFFF;
   defaultCaption: "<id>";

@@ -21,39 +21,54 @@ node.* {
   text-color-internal: #FFFFFF;
   defaultCaption: "<id>";
 }
-node.Person {
+node.AdMikadoDbAuthorizationGroup {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+  caption: "{authorizationName}";
+}
+node.AdValidatAuthorizationGroup {
   color: #4C8EDA;
   border-color: #2870c2;
   text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
-  caption: "{name}";
+  caption: "{authorizationName}";
 }
-node.Movie {
-  color: #57C7E3;
+node.ADAccount {
+  color: #666666;
   border-color: #23b3d7;
   text-color-internal: #2A2C34;
-  defaultCaption: "<id>";
-  caption: "{title}";
+  caption: "{lastName}";
 }
-node.Greeting {
-  color: #00EE00;
-  border-color: #00EE00;
-  text-color-internal: #2A2C34;
-  defaultCaption: "<id>";
-  caption: "{title}";
-}
-node.Critic {
-  color: #604A0E;
-  border-color: #423204;
+node.AdChromeleonAuthorizationGroup {
+  color: #DA7194;
+  border-color: #cc3c6c;
   text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
-  caption: "{name}";
-  diameter: 50px;
+  caption: "{authorizationName}";
 }
-node.Producer {
-  color: #eb2728;
-  border-color: #eb2728;
+node.AdAdobeAuthorizationGroup {
+  color: #569480;
+  border-color: #447666;
   text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
+  caption: "{authorizationName}";
+}
+node.Account {
+  caption: "{_captionName}";
+}
+node.ADResource {
   caption: "{name}";
+}
+node.APADAccount {
+  caption: "{lastName}";
+}
+node.ADGroup {
+  caption: "{groupCommonName}";
+}
+node.AzureADAccount {
+  caption: "{displayName}";
+}
+node.AdEzchromAuthorizationGroup {
+  caption: "{authorizationName}";
+}
+node.Equipment {
+  caption: "{_captionName}";
 }

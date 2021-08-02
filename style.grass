@@ -1,4 +1,4 @@
-﻿node {
+node {
   diameter: 50px;
   color: #A5ABB6;
   border-color: #9AA1AC;
@@ -28,9 +28,6 @@ node.AdValidatAuthorizationGroup {
   caption: "{authorizationName}";
 }
 node.ADAccount {
-  color: #666666;
-  border-color: #23b3d7;
-  text-color-internal: #2A2C34;
   caption: "{lastName}";
 }
 node.AdChromeleonAuthorizationGroup {
@@ -56,35 +53,20 @@ node.AzureADAccount {
 }
 node.AdEzchromAuthorizationGroup {
   caption: "{authorizationName}";
-  color: #4C8EDA;
-  border-color: #2870c2;
-  text-color-internal: #FFFFFF;
 }
 node.Equipment {
   caption: "{_captionName}";
 }
 node.AdDodAuthorizationGroup {
-  color: #ECB5C9;
-  border-color: #da7298;
-  text-color-internal: #2A2C34;
   caption: "{authorizationName}";
 }
 node.AdImproAuthorizationGroup {
-  color: #FFC454;
-  border-color: #d7a013;
-  text-color-internal: #2A2C34;
   caption: "{authorizationName}";
 }
 node.AdLicrysAuthorizationGroup {
-  color: #DA7194;
-  border-color: #cc3c6c;
-  text-color-internal: #FFFFFF;
   caption: "{authorizationName}";
 }
 node.AdO365AuthorizationGroup {
-  color: #569480;
-  border-color: #447666;
-  text-color-internal: #FFFFFF;
   caption: "{authorizationName}";
 }
 node.AdOneAdAuthorizationGroup {

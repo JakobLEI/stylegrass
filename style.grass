@@ -1,77 +1,540 @@
-node {
-  diameter: 50px;
-  color: #A5ABB6;
-  border-color: #9AA1AC;
-  border-width: 2px;
-  text-color-internal: #FFFFFF;
-  font-size: 10px;
-}
-relationship {
-  color: #A5ABB6;
-  shaft-width: 1px;
-  font-size: 8px;
-  padding: 3px;
-  text-color-external: #000000;
-  text-color-internal: #FFFFFF;
-  caption: "<type>";
-}
-node.* {
-  color: #a5abb6;
-  border-color: #b261a5;
-  text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
-}
-node.AdMikadoDbAuthorizationGroup {
-  caption: "{authorizationName}";
-}
-node.AdValidatAuthorizationGroup {
-  caption: "{authorizationName}";
-}
-node.ADAccount {
-  caption: "{lastName}";
-}
-node.AdChromeleonAuthorizationGroup {
-  caption: "{authorizationName}";
-}
-node.AdAdobeAuthorizationGroup {
-  caption: "{authorizationName}";
-}
 node.Account {
-  caption: "{_captionName}";
+color: #A5ABB6;
+}
+node.LegalEntity {
+color: #A5ABB6;
+}
+node.VersumAccount {
+color: #A5ABB6;
 }
 node.ADResource {
-  caption: "{name}";
+color: #A5ABB6;
 }
-node.APADAccount {
-  caption: "{lastName}";
+node.Projection {
+color: #A5ABB6;
+}
+node.CDM {
+color: #A5ABB6;
+}
+node.Department {
+color: #A5ABB6;
+}
+node.P02ContractMetaData {
+color: #A5ABB6;
+}
+node.Identity {
+color: #A5ABB6;
+}
+node.MCloudCostCenter {
+color: #A5ABB6;
+}
+node.ZBSSingleAuthorization {
+color: #A5ABB6;
+}
+node.CRUD {
+color: #A5ABB6;
+}
+node.CDMServiceAccount {
+color: #A5ABB6;
+}
+node.ServiceRequest {
+color: #A5ABB6;
+}
+node.IDSSoftware {
+color: #A5ABB6;
+}
+node.RelationCreated {
+color: #A5ABB6;
+}
+node.Badge {
+color: #A5ABB6;
+}
+node.Authorization {
+color: #A5ABB6;
+}
+node.Telco {
+color: #A5ABB6;
+}
+node.GLAMDevice {
+color: #A5ABB6;
+}
+node.CollabMailbox {
+color: #A5ABB6;
+}
+node.Interface {
+color: #A5ABB6;
 }
 node.ADGroup {
-  caption: "{groupCommonName}";
+color: #A5ABB6;
+}
+node.UCCMailbox {
+color: #A5ABB6;
+}
+node.ZBSAuthorizationProfile {
+color: #A5ABB6;
+}
+node.Identifier {
+color: #A5ABB6;
+}
+node.LifecycleEvent {
+color: #A5ABB6;
+}
+node.SNOWGroupAuthorization {
+color: #A5ABB6;
+}
+node.Device {
+color: #A5ABB6;
+}
+node.Resource {
+color: #A5ABB6;
+}
+node.PersonalMailbox {
+color: #A5ABB6;
+}
+node.KeyviAuthorization {
+color: #A5ABB6;
+}
+node.O365Mailbox {
+color: #A5ABB6;
+}
+node.Software {
+color: #A5ABB6;
+}
+node.VipUser {
+color: #A5ABB6;
+}
+node.O365MailDelegation {
+color: #A5ABB6;
+}
+node.IDSDevice {
+color: #A5ABB6;
+}
+node.Source {
+color: #A5ABB6;
+}
+node.Engagement {
+color: #A5ABB6;
+}
+node.BadgeDB {
+color: #A5ABB6;
+}
+node.CostCenter {
+color: #A5ABB6;
+}
+node.Delegation {
+color: #A5ABB6;
+}
+node.CoreData {
+color: #A5ABB6;
+}
+node.AzureAuthenticationContactInfo {
+color: #A5ABB6;
+}
+node.Location {
+color: #A5ABB6;
+}
+node.O365Authorization {
+color: #A5ABB6;
+}
+node.OneAdAuthorization {
+color: #A5ABB6;
+}
+node.MoverLocation {
+color: #A5ABB6;
+}
+node.p40_internal_employment_contract {
+color: #A5ABB6;
 }
 node.AzureADAccount {
-  caption: "{displayName}";
+color: #A5ABB6;
 }
-node.AdEzchromAuthorizationGroup {
-  caption: "{authorizationName}";
+node.MailDistributionLists {
+color: #A5ABB6;
 }
-node.Equipment {
-  caption: "{_captionName}";
+node.GoogleSuiteAccount {
+color: #A5ABB6;
 }
-node.AdDodAuthorizationGroup {
-  caption: "{authorizationName}";
+node.cdm_rmuid_equipment {
+color: #A5ABB6;
 }
-node.AdImproAuthorizationGroup {
-  caption: "{authorizationName}";
+node.SCCMDevice {
+color: #A5ABB6;
 }
-node.AdLicrysAuthorizationGroup {
-  caption: "{authorizationName}";
+node.Int2Ext {
+color: #A5ABB6;
 }
-node.AdO365AuthorizationGroup {
-  caption: "{authorizationName}";
+node.MikadoDbAuthorization {
+color: #A5ABB6;
 }
 node.AdOneAdAuthorizationGroup {
-  caption: "{authorizationName}";
+color: #A5ABB6;
+}
+node.EmploymentContractSuspension {
+color: #A5ABB6;
+}
+node.ap_ad_account {
+color: #A5ABB6;
+}
+node.MoverDepartment {
+color: #A5ABB6;
+}
+node.IntunesDevice {
+color: #A5ABB6;
+}
+node.mcloud_cost_center {
+color: #A5ABB6;
+}
+node.ad_merckgroup_exchange_rooms {
+color: #A5ABB6;
+}
+node.kace_asset {
+color: #A5ABB6;
+}
+node.KACEDevice {
+color: #A5ABB6;
+}
+node.SapRole {
+color: #A5ABB6;
+}
+node.ExchangeEquipment {
+color: #A5ABB6;
+}
+node.MuidCoreData {
+color: #A5ABB6;
+}
+node.ExchangeMeetingRoom {
+color: #A5ABB6;
+}
+node.ad_merckgroup_exchange_equipment {
+color: #A5ABB6;
+}
+node.o365_onedrive_account {
+color: #A5ABB6;
+}
+node.IdentityResolution {
+color: #A5ABB6;
+}
+node.ad_one_ad_group_authorization {
+color: #A5ABB6;
+}
+node.ad_impro_authorization {
+color: #A5ABB6;
+}
+node.ad_chromeleon_authorization {
+color: #A5ABB6;
+}
+node.LicrysAuthorization {
+color: #A5ABB6;
+}
+node.AdAdobeAuthorizationGroup {
+color: #A5ABB6;
+}
+node.snow_vip_user {
+color: #A5ABB6;
+}
+node.SapAccount {
+color: #A5ABB6;
+}
+node.snow_user_groups {
+color: #A5ABB6;
+}
+node.Connect15Mailbox {
+color: #A5ABB6;
+}
+node.EzchromAuthorization {
+color: #A5ABB6;
+}
+node.DataNet {
+color: #A5ABB6;
+}
+node.Rejoiner {
+color: #A5ABB6;
+}
+node.ad_o365_authorization {
+color: #A5ABB6;
+}
+node.AdDodAuthorizationGroup {
+color: #A5ABB6;
+}
+node.OneDrive {
+color: #A5ABB6;
+}
+node.MeetingRoom {
+color: #A5ABB6;
+}
+node.jamf_device {
+color: #A5ABB6;
+}
+node.AdImproAuthorizationGroup {
+color: #A5ABB6;
+}
+node.ValidatAuthorization {
+color: #A5ABB6;
+}
+node.ad_licrys_authorization {
+color: #A5ABB6;
+}
+node.NodeUpdated {
+color: #A5ABB6;
+}
+node.AirwatchSialMobileDevice {
+color: #A5ABB6;
+}
+node.UCCSkypeAccount {
+color: #A5ABB6;
+}
+node.ad_openlab_authorization {
+color: #A5ABB6;
+}
+node.AdO365AuthorizationGroup {
+color: #A5ABB6;
+}
+node.AdValidatAuthorizationGroup {
+color: #A5ABB6;
+}
+node.AdEzchromAuthorizationGroup {
+color: #A5ABB6;
+}
+node.versum_account {
+color: #A5ABB6;
+}
+node.GLAMDeviceAggregation {
+color: #A5ABB6;
+}
+node.na_ad_account {
+color: #A5ABB6;
+}
+node.AdChromeleonAuthorizationGroup {
+color: #A5ABB6;
+}
+node.MoverLegalEntity {
+color: #A5ABB6;
+}
+node.badge_db {
+color: #A5ABB6;
+}
+node.airwatch_sial_mobiledevice {
+color: #A5ABB6;
+}
+node.UserPrincipalName {
+color: #A5ABB6;
+}
+node.la_ad_account {
+color: #A5ABB6;
+}
+node.OneAdMigrationDevice {
+color: #A5ABB6;
+}
+node.ServerAdminAuthorization {
+color: #A5ABB6;
+}
+node.azure_ad_user_details {
+color: #A5ABB6;
+}
+node.authorization_serveradminauthorization {
+color: #A5ABB6;
+}
+node.ChromeleonAuthorization {
+color: #A5ABB6;
+}
+node.SNOWDevice {
+color: #A5ABB6;
+}
+node.snow_delegation {
+color: #A5ABB6;
+}
+node.Ext2Int {
+color: #A5ABB6;
+}
+node.azure_ad_mfa_details {
+color: #A5ABB6;
+}
+node.TelcoSkypeAccount {
+color: #A5ABB6;
+}
+node.airwatch_merck_mobiledevice {
+color: #A5ABB6;
+}
+node.AdLicrysAuthorizationGroup {
+color: #A5ABB6;
+}
+node.snow_assets {
+color: #A5ABB6;
+}
+node.JAMFDevice {
+color: #A5ABB6;
+}
+node.EmploymentContract {
+color: #A5ABB6;
+}
+node.DesktopOnDemand {
+color: #A5ABB6;
+}
+node.AdMikadoDbAuthorizationGroup {
+color: #A5ABB6;
+}
+node.ad_validat_authorization {
+color: #A5ABB6;
+}
+node.cdm_service_account {
+color: #A5ABB6;
+}
+node.ad_ezchrom_authorization {
+color: #A5ABB6;
+}
+node.merckgroup_ad_account {
+color: #A5ABB6;
+}
+node.Datanet {
+color: #A5ABB6;
 }
 node.AdOpenlabAuthorizationGroup {
-  caption: "{authorizationName}";
+color: #A5ABB6;
+}
+node.eu_ad_account {
+color: #A5ABB6;
+}
+node.p02_contract {
+color: #A5ABB6;
+}
+node.cdm_rmuid_meetingroom {
+color: #A5ABB6;
+}
+node.cdm_additional_user_info {
+color: #A5ABB6;
+}
+node.ADAccount {
+color: #A5ABB6;
+}
+node.datanet {
+color: #A5ABB6;
+}
+node.ImproAuthorization {
+color: #A5ABB6;
+}
+node.o365_skype_account {
+color: #A5ABB6;
+}
+node.O365SkypeAccount {
+color: #A5ABB6;
+}
+node.ad_adobe_authorization {
+color: #A5ABB6;
+}
+node.AdobeAuthorization {
+color: #A5ABB6;
+}
+node.KeyviGroupAuthorization {
+color: #A5ABB6;
+}
+node.one_ad_migration_device {
+color: #A5ABB6;
+}
+node.ad_mikado_db_authorization {
+color: #A5ABB6;
+}
+node.MobileDevice {
+color: #A5ABB6;
+}
+node.one_ad_account {
+color: #A5ABB6;
+}
+node.EmploymentContractTermination {
+color: #A5ABB6;
+}
+node.Leaver {
+color: #A5ABB6;
+}
+node.EmploymentContractReactivation {
+color: #A5ABB6;
+}
+node.SharedMailbox {
+color: #A5ABB6;
+}
+node.ad_dod_authorization {
+color: #A5ABB6;
+}
+node.QlikAuthorization {
+color: #A5ABB6;
+}
+node.Joiner {
+color: #A5ABB6;
+}
+node.p40_department {
+color: #A5ABB6;
+}
+node.ServerAdminADAuthorizationGroup {
+color: #A5ABB6;
+}
+node.intunes_device {
+color: #A5ABB6;
+}
+node.IdentityCoreData {
+color: #A5ABB6;
+}
+node.MUID {
+color: #A5ABB6;
+}
+node.snow_service_request {
+color: #A5ABB6;
+}
+node.OpenlabAuthorization {
+color: #A5ABB6;
+}
+node.AirwatchMerckMobileDevice {
+color: #A5ABB6;
+}
+node.Equipment {
+color: #A5ABB6;
+}
+node.UserId {
+color: #A5ABB6;
+}
+node.cdm_external_employment_contract {
+color: #A5ABB6;
+}
+node.NodeCreated {
+color: #A5ABB6;
+}
+node.sial_ad_account {
+color: #A5ABB6;
+}
+node.MerckgroupADAccount {
+color: #A5ABB6;
+}
+node.OneADAccount {
+color: #A5ABB6;
+}
+node.LAADAccount {
+color: #A5ABB6;
+}
+node.APADAccount {
+color: #A5ABB6;
+}
+node.EUADAccount {
+color: #A5ABB6;
+}
+node.NAADAccount {
+color: #A5ABB6;
+}
+node.SialADAccount {
+color: #A5ABB6;
+}
+node.InternalEmploymentContract {
+color: #A5ABB6;
+}
+node.ExternalEmploymentContract {
+color: #A5ABB6;
+}
+node.CDMExternalEmploymentContract {
+color: #A5ABB6;
+}
+node.P40InternalEmploymentContract {
+color: #A5ABB6;
+}
+node.LegacyInternalEmploymentContract {
+color: #A5ABB6;
+}
+node.LegacyExternalEmploymentContract {
+color: #A5ABB6;
 }
